@@ -1,4 +1,10 @@
-﻿Console.WriteLine("Введите размер массива:  ");
+﻿/* Задача 34. Задайте массив заполненый случайными положительными трехзначными числами.
+Напишите программу, которая покажет количествочетных чисел в массиве. 
+ Например:
+ [345, 897, 568, 234] -> 2
+ */
+
+Console.WriteLine("Введите размер массива:  ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
